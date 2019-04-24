@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Forma</class>
+ <widget class="QWidget" name="Forma">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>456</width>
+    <height>368</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Plotter Arduino</string>
+  </property>
+  <widget class="QWidget" name="verticalLayoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>50</y>
+     <width>431</width>
+     <height>271</height>
+    </rect>
+   </property>
+   <layout class="QVBoxLayout" name="layout_vertical"/>
+  </widget>
+  <widget class="QLabel" name="estado_conexao">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>330</y>
+     <width>121</width>
+     <height>18</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Iniciando..</string>
+   </property>
+  </widget>
+  <widget class="QSplitter" name="splitter">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>10</y>
+     <width>435</width>
+     <height>32</height>
+    </rect>
+   </property>
+   <property name="orientation">
+    <enum>Qt::Horizontal</enum>
+   </property>
+   <widget class="QLabel" name="label">
+    <property name="text">
+     <string>Porta:</string>
+    </property>
+    <property name="buddy">
+     <cstring>set_port</cstring>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="set_port">
+    <property name="text">
+     <string>/dev/ttyACM0</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="text">
+     <string>&amp;Taxa de transmissão:</string>
+    </property>
+    <property name="buddy">
+     <cstring>set_baudrate</cstring>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="set_baudrate">
+    <property name="text">
+     <string>9600</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QPushButton" name="reconectar">
+   <property name="enabled">
+    <bool>true</bool>
+   </property>
+   <property name="geometry">
+    <rect>
+     <x>370</x>
+     <y>330</y>
+     <width>71</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Conectar</string>
+   </property>
+   <property name="shortcut">
+    <string>Return</string>
+   </property>
+   <property name="flat">
+    <bool>false</bool>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
