@@ -1,0 +1,49 @@
+Roteiro
+---------
+Graphical User Interfaces
+
+Paralelismo de execução
+
+Comunicação serial
+
+Integração
+
+----------------------------------------
+
+Interfaces
+|
++- Console (textual)
+|
++- Desktop (gui) ----- Janelas
+              +------- Windows
+              +------- Terceiros +-- Tk
+                                 +-- Wx
+                                 +-- GTK
+                                 +-- Qt
+                                 +-- Kivy
+                                 +-- Swing/JavaFx
++- Web ---- "Textual" e remota
+    +------ HTML + CSS + Javascript + ...
+    +------ XML, JSon (Web services)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

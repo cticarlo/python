@@ -1,0 +1,23 @@
+Qt - Digia
+     C++ 
+     Binding Python
+    +- PyQT
+    +- PySide / PySide2
+
+Qt 4 - Usado neste workshop
+
+Qt5 - Versão mais atual
+
+-------------------------
+Como funciona uma app gráfica:
+
++ Inicialização
++ Apresentação das janelas
++ Loop de processamento de mensagens/eventos
+
+
+
+
+
+
+  
