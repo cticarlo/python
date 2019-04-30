@@ -124,7 +124,7 @@ class Janela(QtWidgets.QWidget, Ui_Forma):
         self.xl = []
         self.yl = []
         
-        self.show()
+#        self.show()
         
     def conectar(self):
         """
@@ -209,5 +209,17 @@ class Janela(QtWidgets.QWidget, Ui_Forma):
 app = QtWidgets.QApplication(sys.argv)
  
 prog = Janela()
+prog.show()
 
 sys.exit(app.exec_())
+
+
+
+
+
+
+
+
+
+
+
